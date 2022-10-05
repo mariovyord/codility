@@ -4,6 +4,7 @@ function solution(N, M) {
     const arr = Array(N).fill(1);
     let X = 0;
 
+    // eslint-disable-next-line no-constant-condition
     while (true) {
         if (arr[X] === 1) {
             arr[X] = 0;
